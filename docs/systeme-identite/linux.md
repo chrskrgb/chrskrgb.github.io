@@ -33,7 +33,7 @@ ClientAliveCountMax 2
 
 ---
 
-## 2. Configuration du Pare-feu local (UFW / nftables)
+## 2. Configuration du pare-feu local (UFW / nftables)
 
 ```bash title="Commandes UFW de base"
 # Politique par défaut restrictive

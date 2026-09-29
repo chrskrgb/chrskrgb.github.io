@@ -130,4 +130,4 @@ Récemment certifié **Ingénieur DevOps (Titre RNCP Niveau 6)**, mon objectif e
 ## :material-translate: Langues & Engagement
 
 - **Langues** : Français (Langue maternelle), Anglais (Professionnel et technique - B2).
-- **Engagement associatif** : **Coordinateur Polyvalent** - *L'Esprit Léger* (Juin 2018 – Présent) : Conception, production et animations d'évènements festifs.
+- **Engagement associatif** : **Coordinateur Polyvalent** - *L'Esprit Léger* (Juin 2018 – Présent) : Conception, production et animations d'événements festifs.

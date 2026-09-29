@@ -15,7 +15,7 @@ Cette section détaille les projets et architectures d'intégration continue, de
 
     ---
 
-    Déploiement de micro-services avec Docker, Docker Compose et orchestration de clusters Kubernetes (Pods, Services, Ingress).
+    Déploiement de microservices avec Docker, Docker Compose et orchestration de clusters Kubernetes (Pods, Services, Ingress).
 
 -   :material-ansible:{ .lg .middle } __[Automatisation Ansible](ansible.md)__
 

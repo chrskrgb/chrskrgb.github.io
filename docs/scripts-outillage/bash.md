@@ -5,11 +5,11 @@ description: Scripts d'automatisation shell, sauvegardes et maintenance système
 
 # Scripts Bash & Shell Linux
 
-Scripts d'exploitation système conçus avec les standards POSIX et robustesse de gestion des erreurs.
+Scripts d'exploitation système conçus selon les standards POSIX et avec une gestion robuste des erreurs.
 
 ---
 
-## 1. Script de Sauvegarde avec Rotation et Chiffrement
+## 1. Script de sauvegarde avec rotation et chiffrement
 
 ```bash title="backup_rotate.sh"
 #!/usr/bin/env bash

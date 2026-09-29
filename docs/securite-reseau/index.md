@@ -5,7 +5,7 @@ description: Stratégies de défense en profondeur, segmentation réseau et durc
 
 # Sécurité & Réseaux
 
-Cette section aborde les méthodologies de sécurisation des périmètres réseaux, la mise en œuvre de topologies cloisonnées et le durcissement des services exposés.
+Cette section aborde les méthodologies de sécurisation des périmètres réseau, la mise en œuvre de topologies cloisonnées et le durcissement des services exposés.
 
 ## :material-folder-multiple: Sommaire de la section
 

@@ -7,7 +7,7 @@ description: Procédure complète de durcissement d'un tenant Microsoft Entra ID
 
 Cette procédure technique détaille les étapes méthodologiques et opérationnelles pour durcir l'accès à un tenant **Microsoft Entra ID**. Elle couvre la création de comptes d'urgence (*Break-Glass*), l'éradication des protocoles d'authentification obsolètes et le déploiement d'une stratégie d'**Accès Conditionnel** imposant le MFA.
 
-!!! info "Cas pratique d'Entreprise (Retour d'Expérience)"
+!!! info "Cas pratique d'entreprise (retour d'expérience)"
     Cette documentation formalise l'architecture et les étapes appliquées lors de la sécurisation des accès de **100 utilisateurs** pour l'agence **Dragon Rouge** (Paris).
 
 ---
@@ -98,12 +98,12 @@ Les protocoles d'authentification standard (POP3, IMAP4, SMTP Auth, MAPI hérit�
 3. Configurez les sections suivantes :
     - **Utilisateurs** : *Tous les utilisateurs*, avec exclusion des comptes *Break-Glass*.
     - **Ressources cibles** : *Toutes les ressources cloud*.
-    - **Conditions** > **Applications clientes** : Cocher *Clients d'authentification moderne* décoché, et cocher **Autres clients** et **Clients Exchange ActiveSync**.
+    - **Conditions** > **Applications clientes** : Laisser *Clients d'authentification moderne* décoché, et cocher **Autres clients** et **Clients Exchange ActiveSync**.
     - **Contrôles d'accès (Accorder)** : **Bloquer l'accès**.
 
 ```json title="Extrait JSON de la politique conditionnelle (MS Graph API)"
 {
-  "displayName": "[SEC-01] Bloquer l'authentification héritee",
+  "displayName": "[SEC-01] Bloquer l'authentification héritée",
   "state": "enabledForReportingButNotEnforced",
   "conditions": {
     "users": {
@@ -143,7 +143,7 @@ Cette stratégie impose l'authentification multifacteur pour toutes les sessions
 
 ---
 
-## 4. Vérification, Audit & Alerting
+## 4. Vérification, audit & alertes (alerting)
 
 ### Requête KQL pour détecter l'usage du compte Break-Glass
 

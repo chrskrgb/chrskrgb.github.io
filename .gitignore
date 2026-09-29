@@ -1,26 +1,63 @@
-# Virtual environments
+# ==============================================================================
+# Fichiers et dossiers non indispensables au fonctionnement du projet MkDocs
+# ==============================================================================
+
+# --- Sources et documents locaux non publiés ---
+# Dossiers et sources LaTeX du CV (conservés strictement en local)
+2026_CV/
+*_CV/
+*.tex
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Notes de cadrage et fichiers de travail initiaux
+personal-doc.md
+*.tmp
+*.bak
+
+# --- Environnements virtuels et dépendances locales ---
 .venv/
 venv/
+env/
 ENV/
 
-# Python cache
+# --- Caches Python ---
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
 
-# MkDocs build directory
+# --- Dossier de build MkDocs (généré automatiquement en CI/CD) ---
 site/
 
-# macOS / OS files
+# --- Fichiers système d'exploitation ---
+# macOS
 .DS_Store
+.DS_Store?
+._*
 .AppleDouble
 .LSOverride
+.Spotlight-V100
+.Trashes
 
-# Editor files
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Fichiers d'éditeurs et d'IDE ---
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
 
-# Ignore vscode AI rules
+# --- Règles d'assistants IA / Configuration spécifique ---
 .github/instructions/codacy.instructions.md
-
-# Dossier local des sources LaTeX CV
-2026_CV/

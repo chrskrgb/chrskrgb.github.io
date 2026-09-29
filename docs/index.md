@@ -25,7 +25,7 @@ Ce portfolio constitue la vitrine technique de mes compétences opérationnelles
 
 - **Rigueur d'Exploitation & Socle Solide** : 5+ années passées à administrer des parcs multi-clients, gérer des annuaires Active Directory & Entra ID, déployer des firewalls et assurer le maintien en conditions opérationnelles (MCO).
 - **Industrialisation & Culture DevOps** : Titre d'Ingénieur DevOps (Liora / RNCP 6) pour automatiser les déploiements, conteneuriser les applications (Docker, Kubernetes) et piloter l'infrastructure par le code (Ansible, Terraform, CI/CD).
-- **Sécurité & Zero Trust au Cœur** : Durcissement des systèmes d'exploitation, élimination des protocoles obsolètes, déploiement d'accès conditionnel et gestion stricte des privilèges.
+- **Sécurité & Zero Trust au Cœur** : Durcissement des systèmes d'exploitation, élimination des protocoles obsolètes, déploiement de politiques d'Accès Conditionnel et gestion stricte des privilèges.
 
 ---
 
@@ -69,7 +69,7 @@ Ce portfolio constitue la vitrine technique de mes compétences opérationnelles
 
 ---
 
-## :material-star-shooting: Cas pratique d'Entreprise à la une
+## :material-star-shooting: Cas pratique d'entreprise à la une
 
 !!! tip "Retour d'expérience réel : Sécurisation d'accès sous Entra ID (Dragon Rouge)"
     Découvrez la procédure technique détaillée appliquée pour sécuriser les accès de 100 utilisateurs : blocage de l'authentification héritée, comptes Break-Glass d'urgence, politiques d'Accès Conditionnel avec MFA obligatoire et détection KQL sous Log Analytics / Sentinel.

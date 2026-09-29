@@ -9,7 +9,7 @@ L'Active Directory local constitue souvent le point central de l'authentificatio
 
 ---
 
-## 1. Modèle d'Administration en Niveaux (Tiering Model)
+## 1. Modèle d'administration en niveaux (Tiering Model)
 
 Afin d'éviter les mouvements latéraux d'attaquants, le principe de séparation des privilèges est appliqué :
 
@@ -35,5 +35,5 @@ graph TD
 - Filtrage des unités d'organisation (OU) pour ne synchroniser que les comptes nécessaires.
 - Activation de la protection contre les suppressions accidentelles (*Accidental Deletion Prevention*).
 
-!!! tip "Conseil Sécurité"
+!!! tip "Conseil de sécurité"
     Ne jamais utiliser un compte Administrateur du domaine local pour administrer Entra ID. Privilégier des comptes nominatifs distincts pour les tâches Cloud.

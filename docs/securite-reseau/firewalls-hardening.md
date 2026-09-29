@@ -9,7 +9,7 @@ Une protection réseau efficace repose sur la granularité des flux et l'absence
 
 ---
 
-## 1. Matrice de Flux et Modèle de Filtrage
+## 1. Matrice de flux et modèle de filtrage
 
 Pour chaque nouveau service, une matrice des flux réseau doit être validée avant ouverture :
 
@@ -22,7 +22,7 @@ Pour chaque nouveau service, une matrice des flux réseau doit être validée av
 
 ---
 
-## 2. Principes de Bastion & Rebond d'Administration
+## 2. Principes de bastion et rebond d'administration
 
 - Les postes d'administration ne doivent pas accéder directement aux machines de production sensibles.
-- Passage obligatoire par un **Serveur de Rebond (Bastion SSH / Guacamole)** avec journalisation des sessions et authentification multi-facteurs (MFA).
+- Passage obligatoire par un **serveur de rebond (bastion SSH / Guacamole)** avec journalisation des sessions et authentification multifacteur (MFA).
