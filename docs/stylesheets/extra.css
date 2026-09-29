@@ -1,0 +1,95 @@
+/* Stylesheets personnalisées pour le portfolio technique MkDocs Material */
+
+:root {
+  --md-primary-fg-color: #3f51b5;
+  --md-primary-fg-color--light: #5c6bc0;
+  --md-primary-fg-color--dark: #303f9f;
+  --md-accent-fg-color: #00b0ff;
+}
+
+/* Hero Banner personnalisé sur l'accueil */
+.hero-banner {
+  background: linear-gradient(135deg, rgba(63, 81, 181, 0.08) 0%, rgba(0, 176, 255, 0.08) 100%);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+[data-md-color-scheme="slate"] .hero-banner {
+  background: linear-gradient(135deg, rgba(63, 81, 181, 0.18) 0%, rgba(0, 176, 255, 0.12) 100%);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.hero-banner h1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.hero-banner p.subtitle {
+  font-size: 1.15rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1.5rem;
+  max-width: 750px;
+  line-height: 1.6;
+}
+
+/* Badges de compétences et tags */
+.skill-badge {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+[data-md-color-scheme="slate"] .skill-badge {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Boutons d'action */
+.md-button--primary {
+  background-color: var(--md-primary-fg-color);
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.md-button--primary:hover {
+  background-color: var(--md-primary-fg-color--dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(63, 81, 181, 0.3);
+}
+
+.md-button--secondary {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.md-button--secondary:hover {
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color) !important;
+  transform: translateY(-2px);
+}
+
+/* Grille de cartes */
+.grid.cards > ul > li {
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}

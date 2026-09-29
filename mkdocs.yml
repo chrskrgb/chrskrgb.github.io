@@ -1,0 +1,107 @@
+site_name: "Portfolio Technique & Documentation DevOps"
+site_description: "Portfolio technique Docs-as-Code : Administration Systèmes, Cloud, DevOps & Sécurité"
+site_author: "DevOps Engineer / SysAdmin"
+site_url: "https://chrskrgb.github.io/"
+
+# Dépôt GitHub lié au projet
+repo_name: "chrskrgb/chrskrgb.github.io"
+repo_url: "https://github.com/chrskrgb/chrskrgb.github.io"
+edit_uri: "edit/main/docs/"
+
+# Configuration du thème Material for MkDocs
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    # Mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    # Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+  icon:
+    logo: material/console-line
+    repo: fontawesome/brands/github
+
+# Extensions Markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+# Feuilles de style et scripts personnalisés
+extra_css:
+  - stylesheets/extra.css
+
+# Plugins
+plugins:
+  - search
+
+# ==============================================================================
+# ARBORESCENCE & NAVIGATION DU SITE (Modifiable facilement ci-dessous)
+# ==============================================================================
+nav:
+  - Accueil: index.md
+  - Cloud & DevOps:
+      - "Vue d'ensemble": cloud-devops/index.md
+      - "Conteneurs & Kubernetes": cloud-devops/docker-k8s.md
+      - "Automatisation Ansible": cloud-devops/ansible.md
+  - Systèmes & Identités:
+      - "Vue d'ensemble": systeme-identite/index.md
+      - "Sécurisation Entra ID (MFA & Break-Glass)": systeme-identite/entra-id-securisation.md
+      - "Active Directory & Hybride": systeme-identite/active-directory.md
+      - "Hardening & Linux": systeme-identite/linux.md
+  - Sécurité & Réseaux:
+      - "Vue d'ensemble": securite-reseau/index.md
+      - "Pare-feu & Durcissement": securite-reseau/firewalls-hardening.md
+  - Scripts & Outillage:
+      - "Vue d'ensemble": scripts-outillage/index.md
+      - "PowerShell": scripts-outillage/powershell.md
+      - "Bash & Shell": scripts-outillage/bash.md
+  - "Profil & Parcours": a-propos.md
