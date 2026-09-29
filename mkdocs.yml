@@ -1,6 +1,6 @@
-site_name: "Portfolio Technique & Documentation DevOps"
-site_description: "Portfolio technique Docs-as-Code : Administration Systèmes, Cloud, DevOps & Sécurité"
-site_author: "DevOps Engineer / SysAdmin"
+site_name: "Christopher KRAGBE | Portfolio DevOps & Doc Technique"
+site_description: "Portfolio technique Docs-as-Code de Christopher KRAGBE : Administration Systèmes, Réseaux, Sécurité & Ingénierie DevOps"
+site_author: "Christopher KRAGBE"
 site_url: "https://chrskrgb.github.io/"
 
 # Dépôt GitHub lié au projet
@@ -78,6 +78,18 @@ markdown_extensions:
 # Feuilles de style et scripts personnalisés
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chrskrgb
+      name: GitHub (chrskrgb)
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/chrs-krgb
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:kragbe.christopher@pm.me
+      name: Email
 
 # Plugins
 plugins:

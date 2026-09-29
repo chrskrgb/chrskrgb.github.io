@@ -7,6 +7,9 @@ description: Procédure complète de durcissement d'un tenant Microsoft Entra ID
 
 Cette procédure technique détaille les étapes méthodologiques et opérationnelles pour durcir l'accès à un tenant **Microsoft Entra ID**. Elle couvre la création de comptes d'urgence (*Break-Glass*), l'éradication des protocoles d'authentification obsolètes et le déploiement d'une stratégie d'**Accès Conditionnel** imposant le MFA.
 
+!!! info "Cas pratique d'Entreprise (Retour d'Expérience)"
+    Cette documentation formalise l'architecture et les étapes appliquées lors de la sécurisation des accès de **100 utilisateurs** pour l'agence **Dragon Rouge** (Paris).
+
 ---
 
 ## :material-target: Objectifs & Schéma d'Architecture

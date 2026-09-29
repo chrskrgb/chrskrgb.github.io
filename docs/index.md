@@ -1,29 +1,31 @@
 ---
-title: Accueil - Portfolio Technique & Documentation DevOps
-description: Portfolio technique Docs-as-Code démontrant la transition de l'Administration Système vers l'Ingénierie DevOps
+title: Accueil - Christopher KRAGBE | Portfolio DevOps & Doc Technique
+description: Portfolio technique Docs-as-Code de Christopher KRAGBE, Administrateur Systèmes, Réseaux & Sécurité et Ingénieur DevOps
 ---
 
 <div class="hero-banner" markdown>
 
-# Portfolio Technique & Hub de Documentation
+# Christopher KRAGBE
 <p class="subtitle">
-Ingénieur Systèmes & DevOps &bull; Spécialiste Cloud, Automatisation & Sécurité des Identités.<br>
-Ce site documente des procédures techniques réelles, des architectures d'automatisation et des retours d'expérience dans une démarche <strong>Docs-as-Code</strong>.
+<strong>Administrateur Systèmes, Réseaux & Sécurité &bull; Ingénieur DevOps</strong><br>
+Plus de 5 ans d'expérience opérationnelle sur les infrastructures hybrides (Windows/Linux, Microsoft 365/Entra ID, Réseaux). Récemment certifié Ingénieur DevOps, ce site documente mes architectures, scripts d'automatisation et procédures de durcissement dans une démarche <strong>Docs-as-Code</strong>.
 </p>
 
-[:octicons-shield-lock-24: Explorer la procédure Entra ID](systeme-identite/entra-id-securisation.md){ .md-button .md-button--primary }
-[:octicons-file-code-24: Consulter les scripts](scripts-outillage/index.md){ .md-button .md-button--secondary }
-[:octicons-person-24: Mon Profil & CV](a-propos.md){ .md-button .md-button--secondary }
+[:material-file-pdf-box: Télécharger mon CV (PDF)](assets/Christopher_KRAGBE_CV.pdf){ .md-button .md-button--primary target="_blank" }
+[:octicons-shield-lock-24: Cas pratique Entra ID](systeme-identite/entra-id-securisation.md){ .md-button .md-button--secondary }
+[:octicons-person-24: Parcours complet](a-propos.md){ .md-button .md-button--secondary }
+[:octicons-mark-github-16: GitHub](https://github.com/chrskrgb){ .md-button .md-button--secondary target="_blank" }
+[:material-linkedin: LinkedIn](https://linkedin.com/in/chrs-krgb){ .md-button .md-button--secondary target="_blank" }
 
 </div>
 
-## :material-bullseye-arrow: Positionnement & Démarche
+## :material-bullseye-arrow: Positionnement & Philosophie
 
-Ce portfolio a été conçu pour apporter une preuve concrète de compétences techniques à travers une documentation vivante, vérifiable et versionnée :
+Ce portfolio constitue la vitrine technique de mes compétences opérationnelles :
 
-- **Approche Docs-as-Code** : Rédigé en Markdown enrichi, déployé en continu par pipeline GitHub Actions.
-- **De l'Administration Système au DevOps** : Une expertise socle en infrastructure (Active Directory, Windows/Linux, Réseaux) complétée par l'automatisation moderne (Docker, Kubernetes, Ansible, CI/CD).
-- **Sécurité intégrée (DevSecOps)** : Zero Trust, sécurisation des identités (Entra ID / MFA) et durcissement des systèmes.
+- **Rigueur d'Exploitation & Socle Solide** : 5+ années passées à administrer des parcs multi-clients, gérer des annuaires Active Directory & Entra ID, déployer des firewalls et assurer le maintien en conditions opérationnelles (MCO).
+- **Industrialisation & Culture DevOps** : Titre d'Ingénieur DevOps (Liora / RNCP 6) pour automatiser les déploiements, conteneuriser les applications (Docker, Kubernetes) et piloter l'infrastructure par le code (Ansible, Terraform, CI/CD).
+- **Sécurité & Zero Trust au Cœur** : Durcissement des systèmes d'exploitation, élimination des protocoles obsolètes, déploiement d'accès conditionnel et gestion stricte des privilèges.
 
 ---
 
@@ -31,27 +33,27 @@ Ce portfolio a été conçu pour apporter une preuve concrète de compétences t
 
 <div class="grid cards" markdown>
 
--   :material-cloud-sync:{ .lg .middle } __Cloud, Conteneurs & CI/CD__
-
-    ---
-
-    Conteneurisation d'applications, orchestration Kubernetes, pipelines d'intégration et déploiement continu.
-
-    [:octicons-arrow-right-24: Découvrir les projets Cloud](cloud-devops/index.md)
-
 -   :material-shield-account:{ .lg .middle } __Systèmes & Identités (Entra ID / AD)__
 
     ---
 
-    Gestion des identités hybrides, sécurisation d'accès conditionnel, comptes Break-Glass et durcissement OS.
+    Administration Microsoft 365, synchronisation hybride Entra Connect, sécurisation MFA, comptes Break-Glass et durcissement OS Linux/Windows.
 
-    [:octicons-arrow-right-24: Voir les procédures Identités](systeme-identite/index.md)
+    [:octicons-arrow-right-24: Découvrir les procédures](systeme-identite/index.md)
 
--   :material-security:{ .lg .middle } __Sécurité & Réseaux__
+-   :material-cloud-sync:{ .lg .middle } __Cloud, Conteneurs & CI/CD__
 
     ---
 
-    Principes de défense en profondeur, segmentation réseau, gestion des pare-feu et analyse des vulnérabilités.
+    Conteneurisation Docker multi-stage, orchestration Kubernetes, gestion d'infrastructures avec Ansible et pipelines CI/CD (GitHub Actions, GitLab).
+
+    [:octicons-arrow-right-24: Voir les projets Cloud](cloud-devops/index.md)
+
+-   :material-security:{ .lg .middle } __Sécurité, Réseaux & Pare-feu__
+
+    ---
+
+    Protection périmétrique (Sophos, Fortinet), segmentation VLAN, déploiement VPN, filtrage réseau et bonnes pratiques Zero Trust.
 
     [:octicons-arrow-right-24: Consulter la section Sécurité](securite-reseau/index.md)
 
@@ -59,7 +61,7 @@ Ce portfolio a été conçu pour apporter une preuve concrète de compétences t
 
     ---
 
-    Bibliothèques d'outils et scripts opérationnels en PowerShell et Bash pour l'exploitation et la maintenance.
+    Outils et scripts réutilisables en PowerShell (SDK Microsoft Graph) et Bash pour automatiser les audits et l'exploitation quotidienne.
 
     [:octicons-arrow-right-24: Parcourir les scripts](scripts-outillage/index.md)
 
@@ -67,9 +69,9 @@ Ce portfolio a été conçu pour apporter une preuve concrète de compétences t
 
 ---
 
-## :material-star-shooting: Cas pratique à la une
+## :material-star-shooting: Cas pratique d'Entreprise à la une
 
-!!! tip "Procédure opérationnelle : Durcissement d'un tenant Microsoft Entra ID"
-    Découvrez une procédure complète et détaillée sur l'élimination des protocoles d'authentification héritée, la mise en place d'exclusions Break-Glass résilientes et le déploiement de stratégies d'accès conditionnel strictes.
+!!! tip "Retour d'expérience réel : Sécurisation d'accès sous Entra ID (Dragon Rouge)"
+    Découvrez la procédure technique détaillée appliquée pour sécuriser les accès de 100 utilisateurs : blocage de l'authentification héritée, comptes Break-Glass d'urgence, politiques d'Accès Conditionnel avec MFA obligatoire et détection KQL sous Log Analytics / Sentinel.
     
-    [Lire la procédure complète :material-arrow-right:](systeme-identite/entra-id-securisation.md){ .md-button }
+    [Consulter la procédure détaillée :material-arrow-right:](systeme-identite/entra-id-securisation.md){ .md-button }

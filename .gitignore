@@ -21,3 +21,6 @@ site/
 
 # Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
+
+# Dossier local des sources LaTeX CV
+2026_CV/
