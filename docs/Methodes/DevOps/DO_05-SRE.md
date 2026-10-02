@@ -1,5 +1,4 @@
 ---
-title: Site Reliability Engineering (SRE)
 tags:
   - Document
   - DevOps
@@ -7,9 +6,6 @@ tags:
   - Méthode
   - SRE
 ---
-
-# Site Reliability Engineering (SRE)
-
 ## Fondamentaux du Site Reliability Engineering - SRE
 
 ### Concept et utilité
@@ -110,15 +106,15 @@ tags:
 ---
 ## Retours d'Expérience et Cas d'Usage Industriels
 
-### 1. Google (Panne Google Drive 2017)
+### Google (Panne Google Drive 2017)
 - **Incident** : Défaillance majeure impactant des millions d'utilisateurs.
 - **Résolution SRE** : Mise en œuvre d'un monitoring accéléré, reconfiguration des mécanismes d'alerte et formalisation de processus de post-mortem pour éradiquer la récurrence de la panne.
 
-### 2. Spotify (Instabilité applicative 2018)
+### Spotify (Instabilité applicative 2018)
 - **Incident** : Crashes répétés et fermetures inopinées de l'application cliente.
 - **Résolution SRE** : Détection d'une fuite de mémoire au sein de la bibliothèque de télémétrie, refonte de la gestion mémoire du composant défaillant et validation par des tests de charge rigoureux.
 
-### 3. Netflix (Coupure de flux de streaming 2017)
+### Netflix (Coupure de flux de streaming 2017)
 - **Incident** : Erreurs de connexion massives et indisponibilité de la diffusion.
 - **Résolution SRE** :
 	- Identification rapide d'une anomalie sur le réseau de distribution de contenu (**CDN**).
