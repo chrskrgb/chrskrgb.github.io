@@ -3,7 +3,7 @@
 # ==============================================================================
 
 # --- Sources et documents locaux non publiés ---
-# Dossiers et sources LaTeX du CV (conservés strictement en local)
+# Dossiers et sources LaTeX du CV
 2026_CV/
 *_CV/
 *.tex
