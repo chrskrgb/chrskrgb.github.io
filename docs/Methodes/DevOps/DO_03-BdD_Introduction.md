@@ -47,7 +47,7 @@ tags:
 ---
 ## Typologie des Bases de Données
 
-### 1. Bases de données relationnelles (SGBDR)
+### Bases de données relationnelles (SGBDR)
 - Modèle de stockage :
 	- Organisation tabulaire stricte stockée physiquement par lignes.
 	- Langage standard d'interrogation : `SQL`.
@@ -55,7 +55,7 @@ tags:
 - Solutions :
 	- **MySQL**, **PostgreSQL**, **Oracle Database**, **SQLite**, **Microsoft SQL Server**.
 
-### 2. Bases de données NoSQL
+### Bases de données NoSQL
 - Caractéristiques :
 	- Conçues pour le traitement massif de données (**Big Data**).
 	- Haute disponibilité, tolérance au partitionnement et scalabilité horizontale native.
