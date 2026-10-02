@@ -1,5 +1,4 @@
 ---
-title: GitOps & Infrastructure as Code
 tags:
   - Document
   - DevOps
@@ -7,9 +6,6 @@ tags:
   - Méthode
   - Git
 ---
-
-# GitOps & Infrastructure as Code
-
 ## Fondamentaux du GitOps
 
 ### Concept et utilité
