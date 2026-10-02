@@ -8,12 +8,17 @@ description: Parcours professionnel, compétences techniques et formations de Ch
 <div class="hero-banner" markdown>
 
 ### Christopher KRAGBE
-**Administrateur Systèmes, Réseaux & Sécurité $|$ Ingénieur DevOps**  
-:material-map-marker: Pantin, France &bull; :material-phone: +33 6 80 81 03 01 &bull; :material-email: [kragbe.christopher@pm.me](mailto:kragbe.christopher@pm.me)
+**Administrateur Systèmes, Réseaux & Sécurité | Ingénieur DevOps**  
+:material-map-marker: Pantin, France
 
-[:material-file-pdf-box: Télécharger mon CV au format PDF](assets/Christopher_KRAGBE_CV.pdf){ .md-button .md-button--primary target="_blank" }
+<div style="display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem;" markdown>
 [:octicons-mark-github-16: Profil GitHub](https://github.com/chrskrgb){ .md-button .md-button--secondary target="_blank" }
 [:material-linkedin: Profil LinkedIn](https://linkedin.com/in/chrs-krgb){ .md-button .md-button--secondary target="_blank" }
+</div>
+
+<div style="display: flex; justify-content: center;" markdown>
+[:material-file-pdf-box: Télécharger mon CV au format PDF](assets/Christopher_KRAGBE_CV.pdf){ .md-button .md-button--primary target="_blank" }
+</div>
 
 </div>
 

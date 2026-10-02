@@ -19,6 +19,10 @@ personal-doc.md
 *.tmp
 *.bak
 
+# Anciennes versions et brouillons archivés
+docs/old/
+old/
+
 # --- Environnements virtuels et dépendances locales ---
 .venv/
 venv/
