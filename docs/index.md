@@ -8,7 +8,8 @@ description: Portfolio technique Docs-as-Code de Christopher KRAGBE, Administrat
 # Christopher KRAGBE
 <p class="subtitle">
 <strong>Administrateur Systèmes, Réseaux & Sécurité &bull; Ingénieur DevOps</strong><br>
-Plus de 5 ans d'expérience opérationnelle sur les infrastructures hybrides (Windows/macOS/Linux, Microsoft 365/Entra ID, Réseaux). Récemment certifié Ingénieur DevOps, ce site documente mes connaissances, procédures, scripts, et projets dans une démarche <strong>Docs-as-Code</strong>.
+Plus de 5 ans d'expérience opérationnelle sur les infrastructures hybrides (Windows/macOS/Linux, Microsoft 365/Entra ID, Réseaux).<br>
+Récemment certifié Ingénieur DevOps, ce site documente mes connaissances, procédures, scripts, et projets dans une démarche <strong>Docs-as-Code</strong>.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem;" markdown>
