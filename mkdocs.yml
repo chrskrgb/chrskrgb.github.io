@@ -102,12 +102,12 @@ nav:
   - Accueil: index.md
   - Méthodes & Concepts:
       - DevOps:
-          - "Introduction": "Méthodes/DevOps/DO_01-Introduction.md"
-          - "Méthodes Agiles": "Méthodes/DevOps/DO_02-Méthodes_Agiles.md"
-          - "Introduction aux Bases de Données": "Méthodes/DevOps/DO_03-BdD_Introduction.md"
-          - "GitOps": "Méthodes/DevOps/DO_04-GitOps.md"
-          - "Site Reliability Engineering (SRE)": "Méthodes/DevOps/DO_05-SRE.md"
-          - "Déploiement Cloud & CI/CD": "Méthodes/DevOps/DO_06-Deploiement_App_Cloud.md"
+          - "Introduction": "Methodes/DevOps/DO_01-Introduction.md"
+          - "Méthodes Agiles": "Methodes/DevOps/DO_02-Methodes_Agiles.md"
+          - "Introduction aux Bases de Données": "Methodes/DevOps/DO_03-BdD_Introduction.md"
+          - "GitOps": "Methodes/DevOps/DO_04-GitOps.md"
+          - "Site Reliability Engineering (SRE)": "Methodes/DevOps/DO_05-SRE.md"
+          - "Déploiement Cloud & CI/CD": "Methodes/DevOps/DO_06-Deploiement_App_Cloud.md"
   - Solutions & Outils:
       - Microsoft:
           - Active Directory Domain Services (AD DS):
@@ -115,15 +115,15 @@ nav:
               - "Structure": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_02-Structure.md"
               - "Consoles & Administration": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_03-Consoles_Admin.md"
               - "Multi-Sites": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_04-Multi_Sites.md"
-              - "Rôles FSMO": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_05-Rôles_FSMO.md"
+              - "Rôles FSMO": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_05-Roles_FSMO.md"
               - "GPO & GPP": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_06-GPO_GPP.md"
               - Notes & Concepts avancés:
                   - "Microsoft Common Console (MSC)": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Notes/AD_NOTES-MSC.md"
                   - "Primary Group (POSIX)": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Notes/AD_NOTES-PGC_POSIX-Unix_Linux_macOS.md"
                   - "Tiering Model (Modèle en Tiers)": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Notes/AD_NOTES-Tiering_Model.md"
               - Procédures:
-                  - "Joindre un ordinateur au domaine": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Procédures/AD_PROCESS-joindre_ordinateur_domaine_ligne_de_commande.md"
-                  - "Renommer un Contrôleur de Domaine": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Procédures/AD_PROCESS-Renommer_Contrôleur_Domaine.md"
+                  - "Joindre un ordinateur au domaine": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Procedures/AD_PROCESS-joindre_ordinateur_domaine_ligne_de_commande.md"
+                  - "Renommer un Contrôleur de Domaine": "Solutions-Outils/Microsoft/Active_Directory_Domain_Services/AD_Procedures/AD_PROCESS-Renommer_Controleur_Domaine.md"
           - Windows:
               - Notes:
                   - "Registre Windows": "Solutions-Outils/Microsoft/Windows/WIN_Notes/WIN_Notes-Registre_Windows.md"

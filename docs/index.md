@@ -43,7 +43,7 @@ Ce portfolio constitue la vitrine technique de mes compétences opérationnelles
 
     Concepts fondamentaux DevOps, méthodes agiles (Scrum, Kanban), bases de données, GitOps, SRE et pipelines de déploiement cloud (CI/CD).
 
-    [:octicons-arrow-right-24: Découvrir les méthodes](Méthodes/DevOps/DO_01-Introduction.md)
+    [:octicons-arrow-right-24: Découvrir les méthodes](Methodes/DevOps/DO_01-Introduction.md)
 
 -   :material-microsoft:{ .lg .middle } __Active Directory Domain Services__
 
@@ -78,4 +78,4 @@ Ce portfolio constitue la vitrine technique de mes compétences opérationnelles
 !!! tip "Méthodologie DevOps : Le paradigme GitOps"
     Découvrez les principes et les piliers du GitOps : gestion de l'infrastructure comme code, réconciliation continue, versioning déclaratif sous Git et sécurité renforcée des déploiements.
     
-    [Consulter la synthèse GitOps :material-arrow-right:](Méthodes/DevOps/DO_04-GitOps.md){ .md-button }
+    [Consulter la synthèse GitOps :material-arrow-right:](Methodes/DevOps/DO_04-GitOps.md){ .md-button }
